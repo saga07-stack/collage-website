@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <!-- ------------------------------------------------------------------------------------- -->
+  <!-- home page from now  -->
+
+    <section id="homePage">
+     <section class="mini-body">
+           <section class="nav-bar" >
+             <div class="links">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjlg2Rx22k3nDa5TrskeNrnzC-V1xbP4ebjTMe-j_1M2EyhzZzG4Wz&usqp=CAE&s" alt="">
+           
+             <ul>
+                <li><a href="" style="margin:13%;" >Home</a></li>
+                <li><select name="" id="programmeBar"> 
+                    <option value="">Programme</option>
+                    <option value="old">old class programmes</option>
+                    <option value="academic">Academic Programs</option>
+                    <option value="cultural">Cultural Programs</option>
+                    <option value="sport">Sport Programs</option>
+                </select></li>
+                <li><a id="FacilitiesBtn" href="" style="margin:13%;">Facilities</a></li>
+                <li><a id="examBtn" href="#">Exam</a></li>
+                <li><a id="researchBtn" href="">Research</a></li>
+                <li><a id="blogBtn" href="">Blog</a></li> 
+                <li><a id="navLoginBtn" href="#">Login</a></li>
+                <li> <select name="" id="nav-select">
+                <option value="about">About</option>
+                <option value="Introduction">Introduction</option>
+                <option value=""> principle Voice</option>
+               </select></li>
+               <li><button id="contactUs">Contact Us</button></li>
+                <li><input id="searchBar" type="text" placeholder="Search"></li>       
+               </li>  <div class="darkToggle">
+
+                <svg id="off"   xmlns="http://www.w3.org/2000/svg" width="20" height="46" 
+                fill="currentColor" class="bi bi-toggle-off" viewBox="0 0 16 16">
+                   <path d="M11 4a4 4 0 0 1 0 8H8a5 5 0 0 0 2-4 5 5 0 0 0-2-4zm-6 8a4 4 0 1 1 0-8 4 4 0 0 1 0
+                     8M0 8a5 5 0 0 0 5 5h6a5 5 0 0 0 0-10H5a5 5 0 0 0-5 5"/>
+                 </svg>
+                 <svg id="on"  xmlns="http://www.w3.org/2000/svg" width="30" height="46" fill="currentColor"
+                   class="bi bi-toggle-on" viewBox="0 0 16 16">
+                     <path d="M5 3a5 5 0 0 0 0 10h6a5 5 0 0 0 0-10zm6 9a4 4 0 1 1 0-8 4 4 0 0 1 0 8"/>
+                 </svg>
+                </div>    
+               <li>
+                
+                
+                
+            </ul>
+              <!-- <button id="homeBtn" >Home</button>
+              
+              <button id="programsBtn" >Programs</button>
+              <button id="FacilitiesBtn" >Facilities</button>
+              <button id="examBtn" > Exam </button>
+              <button  >Research</button>
+              <button id="blogBtn">Blog</button>
+              <button id="downloadBtn">Downloads</button>
+              <button id="loginBtn">Login</button>
+              <input type="text" placeholder="Search"> -->
+
+             </div>
+            </section>
+             <section class="top-body">
+              <h1>"collage slogun will be here "</h1>
+               <div class="admissions">
+                <h1>
+                    Admissions Open For Fall 2026 <br>
+                     High School Classes 
+                </h1>
+                <p>Grab exciting scholarship and join the top-tier academic journey. Limited Seat, Enroll Today</p>
+                  <div class="about-btn" >
+                    <button id="aboutBtn" >About US</button>
+                    <button id="programBtn"> Our  Programs</button>
+                  </div>
+                 </div>
+              </section>
+             
+    </section>  
+        
+    </section>
+  <!-- ------------------------------------------------------------------------------------- -->
+
+  <!-- login page  -->
+
+
+
+    <section id="loginPage" >
+        <div class="login-card" id="draggableCard">
+        <div class="card-header">
+            <button id="closeBtn">X</button>
+            <h2>ACCESS_HUB</h2>
+            <p>Enter credentials to proceed</p>
+        </div>
+
+        <form class="login-form">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="e.g. neo_01" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="••••••••" required>
+            </div>
+
+            <div class="form-options">
+                <label class="switch-container">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                    Remember Me
+                </label>
+                <a href="#" class="forgot-link">Forgot Password?</a>
+            </div>
+
+
+            <button type="submit" class="login-btn">LOGIN</button>
+
+                 <button type="button" class="create-btn">
+                   CREATE NEW ACCOUNT
+                 </button>
+
+        </form>
+
+        <div class="divider"><span>OR CONTINUE WITH</span></div>
+
+        <div class="social-login">
+            <button  class="social-btn google"> g </button>
+            <button class="social-btn facebook">f</button>
+            <button class="social-btn x-brand">X</button>
+        </div>
+
+        <div class="biometric-section">
+            <button class="bio-btn">
+                <span class="fingerprint-icon"></span>
+                Biometric Login
+            </button>
+        </div>
+    </div>
+    </section>
+  <!-- ------------------------------------------------------------------------------------- -->
+   <!-- create account section  -->
+
+     <section id="createAccountPage">
+      <div class="signup-card">
+    <div class="card-header">
+        <h2>CREATE_ACCOUNT</h2>
+        <p>Join ACCESS_HUB</p>
+    </div>
+
+    <form class="signup-form">
+        <div class="input-group">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" placeholder="e.g. Sagar Poudel" required>
+        </div>
+
+        <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="example@mail.com" required>
+        </div>
+
+        <div class="input-group">
+            <label for="username">Username</label>
+            <input type="text" id="usernamed" placeholder="e.g. neo_01" required>
+        </div>
+
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="passwords" placeholder="••••••••" required>
+        </div>
+
+        <div class="input-group">
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" placeholder="••••••••" required>
+        </div>
+
+        <button type="submit" class="signup-btn">
+            CREATE ACCOUNT
+        </button>
+    </form>
+
+    <div class="divider"><span>ALREADY HAVE AN ACCOUNT?</span></div>
+
+    <div class="login-link">
+        <a href="../index.html">Back to Login</a>
+    </div>
+   </div>
+
+     </section>
+  <!-- ------------------------------------------------------------------------------------- -->
+  <!-- login form google -->
+
+
+    <section id="loginFromGoogle">
+        <div class="google-card" id="draggableCard">
+        <div class="drag-handle">⋮⋮</div>
+
+        <div class="logo-container">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px">
+                <path fill="#FFC107" d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24s8.955,20,20,20s20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"/>
+                <path fill="#FF3D00" d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"/>
+                <path fill="#4CAF50" d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z"/>
+                <path fill="#1976D2" d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"/>
+            </svg>
+        </div>
+
+        <h1>Sign in</h1>
+        <p class="subtitle">to continue to <span>YourApp</span></p>
+
+        <div class="user-preview">
+            <div class="avatar">B</div>
+            <div class="user-info">
+                <span class="name">Binod Dev</span>
+                <span class="email">binod.dev@gmail.com</span>
+            </div>
+        </div>
+
+        <button class="continue-btn">Continue as Binod</button>
+        <a href="">Back</a>
+        
+        <div class="footer-links">
+            <a href="#">Use another account</a>
+        </div>
+    </div>
+    </section>
+  <!-- ------------------------------------------------------------------------------------- -->
+     <!-- login from x -->
+
+
+    <section id="loginFromX">
+       
+    <div class="x-card" id="draggableX">
+    <div class="drag-handle"  ></div>
+    <div  class="x-logo" id="closeBtn" >𝕏</div>
+    <h1>Happening now</h1>
+    <h3>Join today.</h3>
+    <button class="x-white-btn">Sign up with Google</button>
+    <button class="x-white-btn">Sign up with Apple</button>
+    <div class="x-divider"><span>or</span></div>
+    <button class="x-blue-btn">Create account</button>
+    <p class="x-terms">By signing up, you agree to the Terms of Service.</p>
+   </div> 
+    </section>
+  <!-- ------------------------------------------------------------------------------------- -->
+   <!-- login from facebook -->
+   
+    <section id="loginFromFacebook">
+        <div class="fb-card" id="draggableFB">
+    <div class="drag-handle">⠿</div>
+    <div class="fb-logo">facebook</div>
+    <h2>Log in to Facebook</h2>
+    <div class="fb-input-box">
+        <input type="text" placeholder="Email or phone number">
+        <input type="password" placeholder="Password">
+        <button class="fb-login-btn">Log In</button>
+        <a href="#" class="fb-link">Forgotten account?</a>
+    </div>
+    <div class="fb-divider"></div>
+    <button class="fb-create-btn">Create new account</button>
+</div>
+    </section>
+  <!-- ------------------------------------------------------------------------------------- -->
+   <section id="programme">
+    <h1>About the Old Class Programmes </h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+     Repellendus consequuntur deserunt amet distinctio adipisci eligendi <br>
+      earum, quae blanditiis tempore? Aliquid natus recusandae eius. <br>
+      Voluptate aspernatur tenetur reiciendis, fugit modi tempore?</p>
+    <div id="program">
+
+        <div>
+         <h1>Save the Soil </h1>
+         <img src="https://cdn.shopify.com/s/files/1/0579/7924/0580/files/students_planting_trees11_480x480.jpg?v=1686916471" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consectetur, odio eaque harum praesentium unde natus aliquid minus velit explicabo! Numquam nemo eum dolorum qui, corporis minus sint animi reprehenderit!</p>
+        </div>
+        <div>
+            <h1>Blood Donation Programme </h1>
+             <img src="https://sdmit.in/wp-content/uploads/2022/07/1658400230314-scaled-1.jpg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consectetur, odio eaque harum praesentium unde natus aliquid minus velit explicabo! Numquam nemo eum dolorum qui, corporis minus sint animi reprehenderit!</p>
+
+
+        </div>
+        <div>
+            <h1>Art & Craft Exhibition</h1>
+            <img src="https://mountcarmelahmedabad.com/wp-content/uploads/2018/03/DSCN2515.jpg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consectetur, odio eaque harum praesentium unde natus aliquid minus velit explicabo! Numquam nemo eum dolorum qui, corporis minus sint animi reprehenderit!</p>
+
+        </div>
+        <div>
+
+            <h1>Dance Competition</h1>
+            <img src="https://tututix.com/wp-content/uploads/2017/03/how-to-win-a-dance-competition.jpg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consectetur, odio eaque harum praesentium unde natus aliquid minus velit explicabo! Numquam nemo eum dolorum qui, corporis minus sint animi reprehenderit!</p>
+
+        </div>
+        <div>
+            <h1>Community Service Day</h1>
+            <img src="https://www.workitdaily.com/media-library/employee-takes-part-in-his-company-s-community-service-volunteer-day.jpg?id=22510611&width=980" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consectetur, odio eaque harum praesentium unde natus aliquid minus velit explicabo! Numquam nemo eum dolorum qui, corporis minus sint animi reprehenderit!</p>
+
+        </div>
+        <div>
+            <h1>Yoga & Fitness Program</h1>
+            <img src="https://www.yogabasics.com/yogabasics2025/wp-content/uploads/2020/10/484.jpg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consectetur, odio eaque harum praesentium unde natus aliquid minus velit explicabo! Numquam nemo eum dolorum qui, corporis minus sint animi reprehenderit!</p>
+
+        </div>
+    </div>
+   </section>
+  <!-- ------------------------------------------------------------------------------------- -->
+
+  <section id="academicProgramme">
+    <h1>Academic Programmes</h1>
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+     Repellendus consequuntur deserunt amet distinctio adipisci eligendi <br>
+      earum, quae blanditiis tempore? Aliquid natus recusandae eius. <br>
+      Voluptate aspernatur tenetur reiciendis, fugit modi tempore?</p>
+
+      <div id="program">
+        <div>
+            <h2>
+                Quize Competition
+            </h2>
+            <img src="https://hindustanschools.in/wp-content/gallery/intra-school-quiz-competition-2019/intraquiz_competition_his_15.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatem ea labore doloribus modi? Ipsa fugit modi, esse ipsam quibusdam, exercitationem eaque voluptas nemo placeat eos debitis consequatur sit nobis!</p>
+        </div>
+        <div>
+            <h2>Science Exhibition</h2>
+            <img src="https://thescholarschool.org/wp-content/uploads/2024/11/science-exhibition-5.jpg" alt="">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab adipisci perferendis dignissimos! Aut itaque obcaecati quos aliquid, quas sint mollitia nihil perspiciatis distinctio excepturi officiis praesentium voluptates ipsum libero quaerat.</p>
+        </div>
+        <div>
+            <h2>Project Presentation Day</h2>
+            <img src="https://blueinnotechnology.com/wp-content/uploads/2022/09/blueinno-project-presentation-day-2022-1-cover-1024x683.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ab voluptatibus molestias tempore ex voluptatem facere quos esse nisi sit fugiat aliquid quaerat quis, perferendis laudantium maiores architecto, quae error.</p>
+        </div>
+        <div>
+            <h2>Mathematics Olympiad</h2>
+            <img src="https://media.gettyimages.com/id/453287763/photo/this-picture-taken-on-juyy-19-2011-shows-students-during-the-international-mathematical.jpg?s=612x612&w=gi&k=20&c=NgkmwC7AgKtuwWXhEwDRA2yvxMhOwN5YmNK_BwI0VZs=" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus at dignissimos quidem ex mollitia veniam quas, eos, quaerat voluptates est expedita accusamus aliquam iste tempore quibusdam sequi natus quisquam. Quae.</p>
+        </div>
+        <div>
+            <h2>Annual Examination</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmrR-HBgGn0ON6y2dZNUxRPG9-c15gVeA_kw&s" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore natus itaque perspiciatis, optio nobis exercitationem odio aliquam impedit repellendus sequi. Est dolor eius ex accusamus adipisci odit doloremque cupiditate nemo!</p>
+        </div>
+        <div>
+            <h2>Graduation Ceremony</h2>
+            <img src="https://i.insider.com/5d24b147b44ce717d652d5f0?width=700" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus esse, eaque nobis tempora, perspiciatis doloribus, voluptas voluptatibus accusantium rem officiis illo libero error? Vitae et, tempore fuga facilis magni repudiandae.</p>
+        </div>
+      </div>
+  </section>
+   <!-- ------------------------------------------------------------------------------------- -->
+
+  <section id="culturalProgramme">
+    <h1>Cultural Programmes</h1>
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+     Repellendus consequuntur deserunt amet distinctio adipisci eligendi <br>
+      earum, quae blanditiis tempore? Aliquid natus recusandae eius. <br>
+      Voluptate aspernatur tenetur reiciendis, fugit modi tempore?</p>
+
+      <div id="program">
+        <div>
+            <h2>
+               Annual Cultural Festival
+            </h2>
+            <img src="https://www.sundaytimes.lk/160904/uploads/IMG_6728A.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatem ea labore doloribus modi? Ipsa fugit modi, esse ipsam quibusdam, exercitationem eaque voluptas nemo placeat eos debitis consequatur sit nobis!</p>
+        </div>
+        <div>
+            <h2>Dance Competition</h2>
+            <img src="https://www.shutterstock.com/image-photo/young-malay-girl-school-dance-600w-2619480077.jpg" alt="">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab adipisci perferendis dignissimos! Aut itaque obcaecati quos aliquid, quas sint mollitia nihil perspiciatis distinctio excepturi officiis praesentium voluptates ipsum libero quaerat.</p>
+        </div>
+        <div>
+            <h2>Singing Competition</h2>
+            <img src="https://www.ryangroup.org/public/images/front_end/engagement_events_gallary/carol2-23rd-Dec_1618393235_1627714493.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ab voluptatibus molestias tempore ex voluptatem facere quos esse nisi sit fugiat aliquid quaerat quis, perferendis laudantium maiores architecto, quae error.</p>
+        </div>
+        <div>
+            <h2>Drama Performance</h2>
+            <img src="https://www.shutterstock.com/image-photo/full-length-shot-female-teacher-600nw-2616589093.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus at dignissimos quidem ex mollitia veniam quas, eos, quaerat voluptates est expedita accusamus aliquam iste tempore quibusdam sequi natus quisquam. Quae.</p>
+        </div>
+        <div>
+            <h2>International Culture Day</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPdTA0GlXdMx_YV1RG9c1dcQLTJkb56UNKvw&s" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore natus itaque perspiciatis, optio nobis exercitationem odio aliquam impedit repellendus sequi. Est dolor eius ex accusamus adipisci odit doloremque cupiditate nemo!</p>
+        </div>
+        <div>
+            <h2>Art & Craft Exhibition</h2>
+            <img src="https://cdn.shopify.com/s/files/1/0673/5157/6863/files/Exhibition-1_1024x1024.jpg?v=1681379225" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus esse, eaque nobis tempora, perspiciatis doloribus, voluptas voluptatibus accusantium rem officiis illo libero error? Vitae et, tempore fuga facilis magni repudiandae.</p>
+        </div>
+      </div>
+  </section>
+    <!-- ------------------------------------------------------------------------------------- -->
+<!-- sport programme  -->
+  <section id="sportProgramme">
+    <h1>Sports Programmes</h1>
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+     Repellendus consequuntur deserunt amet distinctio adipisci eligendi <br>
+      earum, quae blanditiis tempore? Aliquid natus recusandae eius. <br>
+      Voluptate aspernatur tenetur reiciendis, fugit modi tempore?</p>
+
+      <div id="program">
+        <div>
+            <h2>
+               Annual Sport Day
+            </h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS18cLySgo_Lx9TwzOqJSiJQfQJrOTTSH03gw&s" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptatem ea labore doloribus modi? Ipsa fugit modi, esse ipsam quibusdam, exercitationem eaque voluptas nemo placeat eos debitis consequatur sit nobis!</p>
+        </div>
+        <div>
+            <h2>Football Tournament</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR3KwpECLii4L2OTKzp9SbGhDzIbJ-o591oA&s" alt="">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab adipisci perferendis dignissimos! Aut itaque obcaecati quos aliquid, quas sint mollitia nihil perspiciatis distinctio excepturi officiis praesentium voluptates ipsum libero quaerat.</p>
+        </div>
+        <div>
+            <h2>BasketBall Competition</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1P_sNbKprI0bJYSvi8Cg9oz1OYYxvF-TFtg&s" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ab voluptatibus molestias tempore ex voluptatem facere quos esse nisi sit fugiat aliquid quaerat quis, perferendis laudantium maiores architecto, quae error.</p>
+        </div>
+        <div>
+            <h2>Badmintion Tournament</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNULOWgQispGvNklmscS7x21O7x0QStrSfaA&s" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus at dignissimos quidem ex mollitia veniam quas, eos, quaerat voluptates est expedita accusamus aliquam iste tempore quibusdam sequi natus quisquam. Quae.</p>
+        </div>
+        <div>
+            <h2> Table Tennis Comprtition</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4cUdVSJQc8pLyjmhswX8Tk7gxSdDqTMStaA&s" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore natus itaque perspiciatis, optio nobis exercitationem odio aliquam impedit repellendus sequi. Est dolor eius ex accusamus adipisci odit doloremque cupiditate nemo!</p>
+        </div>
+        <div>
+            <h2>Inter-School Sport Meet</h2>
+            <img src="https://cdn.lyceum.lk/edgemedia/20241218151451/team-victory-stadium-celebration.jpg.webp" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus esse, eaque nobis tempora, perspiciatis doloribus, voluptas voluptatibus accusantium rem officiis illo libero error? Vitae et, tempore fuga facilis magni repudiandae.</p>
+        </div>
+      </div>
+  </section>
+    <!-- ------------------------------------------------------------------------------------- -->
+    <!-- exam sections  -->
+    <section id="exam">
+        <h1>About Exam</h1>
+            <h2>All of the exams are to be held in this april  please select the level and  sections for the details of the exam </h2>
+        <div id="aboutExam">
+                        <div class ="sectionLevel">
+
+                <select name="level"  id="sectionLevel">
+                    <option value="" disabled selected hidden >Select Your Level</option>
+                    <option value="nursary">Nursary</option>
+                    <option value="lkg">Lkg</option>
+                    <option value="ukg">Ukg</option>
+                    <option value="class1">Class1</option>
+                    <option value="class2">Class2</option>
+                    <option value="class3">Class3</option>
+                    <option value="class3">Class4</option>
+                    <option value="class4">Class5</option>
+                    <option value="class5">Class6</option>
+                    <option value="class6">Class7</option>
+                    <option value="class8">Class8</option>
+                    <option value="class9">Class9</option>
+                    <option value="class10">Class10</option>
+                    <option value="class11">Class11</option>
+                    <option value="class12">Class12</option>
+                   <option value="bachloer first years ">Bachloer first years</option>
+                   <option value="bachloer second years ">Bachloer Second years</option>
+                   <option value="bachloer third years ">Bachloer Third years</option>
+                   <option value="bachloer final years ">Bachloer Final years</option>
+                   
+
+                </select>
+                        </div>
+            <div id="optionFaculties">
+                <select name="level" id="facultiesLevel">
+                    <option value="" disabled selected hidden >Select Your Faculties</option>
+                   <option value="science">Science</option>
+                   <option value="computerScience"> Computer Science </option>
+                   <option value="bioScience"> Bio Science</option>
+                   <option value=" management"> Management</option>
+                   <option value="business ">Business</option>
+                   <option value="hotelManagement ">Hotel Management</option>
+                   <option value="economics">Economics</option>
+                   <option value="math">Mathematics</option>
+
+                </select>
+                        </div>
+                        <div>
+
+                <select name="level" id="section">
+                    <option value="" disabled selected hidden >Select Your section</option>
+                    <option value="sectionA">A</option>
+                    <option value="sectionB">B</option>
+                    <option value="sectionC">C</option>
+
+                </select>
+                        </div>
+                        <div>
+
+                <select name="level" id="lecture">
+                    <option value="" disabled selected hidden >Select Your Lecture </option>
+                   <option value="morning"> Morning</option>
+                   <option value="afternoon">Afternoon </option>
+               
+                   
+
+                </select>
+                <button id = "searchBtn" >Search</button>
+                        </div>
+                        
+
+        </div>
+        
+    </section>
+    <!-- ------------------------------------------------------------------------------------- -->
+ <section id="nursary">
+    <div>
+        <h1></h1>
+    </div>
+
+ </section>
+
+    <!-- ------------------------------------------------------------------------------------- -->
+<!-- footer section starts from here  -->
+<section id="footer">
+    <div id="childFooter">
+    <div>
+     <h1>School</h1>
+     <p>Designed and build with all the love in the 
+        world by the school teams with the help of 
+        this loving communitys.
+        <br>
+        All Rights Reseve By @school2026
+     </p>
+    </div>
+    <div>
+        <h1>Links</h1>
+        <ul>
+            <li>Home</li>
+            <li>Docs</li>
+            <li>Examples</li>
+            <li>Exam</li>
+            <li>Blog</li>
+
+        </ul>
+    </div>
+    <div>
+        <h1>Guides</h1>
+         <ul>
+            <li>Home</li>
+            <li>Docs</li>
+            <li>Examples</li>
+            <li>Exam</li>
+            <li>Blog</li>
+            
+        </ul>
+    </div>
+    <div> 
+        <h1>Projects</h1>
+         <ul>
+            <li>Home</li>
+            <li>Docs</li>
+            <li>Examples</li>
+            <li>Exam</li>
+            <li>Blog</li>
+            
+        </ul>
+    </div>
+    <div>
+        <h1>Community</h1>
+         <ul>
+            <li>Home</li>
+            <li>Docs</li>
+            <li>Examples</li>
+            <li>Exam</li>
+            <li>Blog</li>
+            
+        </ul>
+    </div>
+    </div>
+    
+</section>
+ <script src="./javascript/index.js"></script></body>
+</html>
+
