@@ -236,10 +236,46 @@ classes = e.target.value;
 sections  = section.addEventListener("change",function(e){
   sections = e.target.value;
 });
+classes = sectionLevel.addEventListener("change",function(e){
+  classes = e.target.value;
+})
 lecture = lectures.addEventListener("change", function(e){
   lecture = e.target.value;
 }) 
+
+const class1 = document.getElementById("class1");
+const class2 = document.getElementById("class2");
+const class3 = document.getElementById("class3");
+const class4 = document.getElementById("class4");
+const class5 = document.getElementById("class5");
+const class6 = document.getElementById("class6");
+const class7 = document.getElementById("class7");
+const class8 = document.getElementById("class8");
+const class9 = document.getElementById("class9");
+const class10 = document.getElementById("class10");
+const class11 = document.getElementById("class11");
+const class12 = document.getElementById("class12");
+const bachloerFirst = document.getElementById("bachloerFirstYear");
+const bachloerSecond = document.getElementById("bachloerSecondYear");
+ const bachloerThird = document.getElementById("bachloerThirdYear");
+const bachloerFinal = document.getElementById("bachloerFinalYear");
+const example = [
+  {saga: "class1",
+    section: "sectionA",
+    lecture : "morning",
+  }
+];
+const example2 = [classes,]
 const searchBtn = document.getElementById("searchBtn");
  searchBtn.addEventListener("click",function(){
-
+  example.forEach(element =>{
+    if(element.class == classes && element.section == sections && element.lecture == lecture){
+     element.saga.style.display = "grid";
+    }else{
+      alert()
+    }
+  })
  });
+
+//  262 ko concept lai aali advance tarika lay garam bhanerea aadkeako cha logic 
+// next season ma array jasari wa 262 ko concept lay pro ways ma garna try garne 
